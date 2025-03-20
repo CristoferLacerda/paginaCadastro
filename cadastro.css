@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Winky Sans", sans-serif;
+}
+
+#bemVindo {
+    background-color: #0E5EF3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 6rem;
+
+    width: 40vw;
+    height: 100vh;
+
+
+}
+
+body {
+    display: flex;
+}
+
+.tituloApresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+
+    padding-top: 80px;
+    color: white;
+    font-size: 40px;
+}
+
+.botoesLogin {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.loginGoogle {
+    border: solid 2px white;
+    display: flex;
+    align-items: center;
+    padding: 0.3rem;
+    gap: 10px;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+
+}
+
+.loginFacebook {
+    border: solid 2px white;
+    display: flex;
+    align-items: center;
+    padding: 0.3rem;
+    gap: 10px;
+    border-radius: 10px;
+    color: white;
+    width: 25vh;
+    justify-content: center;
+
+}
+
+.loginFacebook img {
+    height: 23px;
+    width: 24px;
+}
+
+.loginGoogle img {
+    height: 23px;
+    width: 24px;
+}
+
+.loginFacebook:hover{
+    padding: 0.5rem;
+    transition: 2s;
+}
+
+#informacoes {
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    width: 60vw;
+ 
+
+    font-size: 30px;
+    justify-content: center;
+    
+}
+
+
+
+
+.barrasCadastro {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+    align-items: center;
+}
+
+.barraEmail input,.barraConfirmar input,.barraSenha input{
+    height: 4rem;
+
+    width: 42vw;
+    border: solid 4px #0E5EF3;
+    border-radius: 10px;
+
+}
+
+
+
+.finalizacaoCadastrar {
+    display: flex;
+    gap: 25px;
+}
+
+.botaoCadastrar h1{
+    border: solid 4px #0E5EF3;
+    font-size:20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.botaoLogin {
+    font-size: 15px;
+}
+
+.botaoLogin a {
+    text-decoration: none;
+    color: #0E5EF3;
+}
